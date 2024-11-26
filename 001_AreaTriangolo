@@ -1,9 +1,11 @@
 # area del triangolo (questo è un commento, viene ignorato dal programma)
-b = 10
-h = 15
+b = 10   # Crea la variabile base
+h = 15   # Crea la variabile altezza
 
-A = b*h/2
+A = b*h/2   # calcola l'area e assegna il valore alla variabile A
 
-print("Base:", b)
+# Stampa tutti i valori
+print("Area del triangolo")
+print("Base:", b) 
 print("Altezza: ", h)
 print("Area:", A)
