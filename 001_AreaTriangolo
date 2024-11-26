@@ -1,0 +1,9 @@
+# area del triangolo (questo è un commento, viene ignorato dal programma)
+b = 10
+h = 15
+
+A = b*h/2
+
+print("Base:", b)
+print("Altezza: ", h)
+print("Area:", A)
