@@ -1,6 +1,11 @@
+
+
 # area del triangolo (questo è un commento, viene ignorato dal programma)
 b = 10   # Crea la variabile base
 h = 15   # Crea la variabile altezza
+
+b = int(input("Base: "))
+h = int(input("Altezza: "))
 
 A = b*h/2   # calcola l'area e assegna il valore alla variabile A
 
