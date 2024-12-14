@@ -113,4 +113,4 @@ def menu():
         stampa(area)
 
 # esegue la funzione menu() dalla quale parte il programma
-menu()  
+menu()
