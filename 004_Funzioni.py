@@ -1,4 +1,4 @@
-# come si scrive una funzione
+# Come si scrive una funzione
 # Una funzione è come un piccolo programma
 # all'interno del programma.
 # Potete scrivere più funzioni dentro allo stesso file,
