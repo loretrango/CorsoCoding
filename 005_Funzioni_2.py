@@ -33,6 +33,12 @@ def confronta():
     elif n1 == n2:
         print("I due numeri sono uguali")
 
+# Ciclo for: serv a ripeter un blocco di codice
+def cicloFor():
+    for i in range(10):
+        print(i)
+
 #PositivoNegativo()
 #saluta()
-confronta()
+#confronta()
+cicloFor()
