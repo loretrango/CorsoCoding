@@ -38,6 +38,20 @@ def cicloFor():
     for i in range(10):
         print(i)
 
+
+## CICLO FOR
+# 1. Scrivi una funzione che stampa i numeri da 1 a 10
+ 
+
+# 2. Scrivi una funzione che somma i numeri da 1 a 10
+
+
+# 3. Scrivi una funzione che che stampa tutta la tabellina del 5
+
+
+# 4. Scrivi una funzione che stampa i quadrati da 0 a 10
+
+
 #PositivoNegativo()
 #saluta()
 #confronta()
