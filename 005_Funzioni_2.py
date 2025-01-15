@@ -100,9 +100,9 @@ def quadrati():
 # 5. Scrivi una funzione che stampa i numeri da 1 a 10, i loro quadrati e la radice quadrata
 def tavNum():
     for n in range(1,11):
-        print(n,n**2,round(n**0.5,2))
+        print(n,n**2,round(n**0.5,2))  # round arrotonda il numero a 2 decimali
 
-# Esempio di come si può realizzare un menu, per scegliere cosa fare
+# MENU: Esempio di come si può realizzare un menu, per scegliere cosa fare
 # tra varie funzioni
 def menu():
     # Stampa il menu
