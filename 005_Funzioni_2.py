@@ -1,6 +1,30 @@
 # con import vengono importati moduli esterni (che rapresentano librerie di funzioni)
 import random
 
+
+# MENU: Esempio di come si può realizzare un menu, per scegliere cosa fare
+# tra varie funzioni
+def menu():
+    # Stampa il menu
+    print("1. Stampa i numeri da 1 a 10")
+    print("2. Somma i numeri da 1 a 10")
+    print("3. Tabellina del 5")
+    print("4. Quadrati da 0 a 10")
+
+    # Chiede all'utente di scegliere un'opzione
+    scelta = int(input("Scegli un'opzione: "))
+
+    # Esegue la funzione corrispondente alla scelta
+    if scelta == 1:
+        stampaNumeri()
+    elif scelta == 2:
+        sommaNumeri()
+    elif scelta == 3:
+        tabellina5()
+    elif scelta == 4:
+        quadrati()
+
+
 # dice se un numero è positivo, negativo o zero
 def PositivoNegativo():
     n = 0
@@ -102,32 +126,20 @@ def tavNum():
     for n in range(1,11):
         print(n,n**2,round(n**0.5,2))  # round arrotonda il numero a 2 decimali
 
-# MENU: Esempio di come si può realizzare un menu, per scegliere cosa fare
-# tra varie funzioni
-def menu():
-    # Stampa il menu
-    print("1. Stampa i numeri da 1 a 10")
-    print("2. Somma i numeri da 1 a 10")
-    print("3. Tabellina del 5")
-    print("4. Quadrati da 0 a 10")
 
-    # Chiede all'utente di scegliere un'opzione
-    scelta = int(input("Scegli un'opzione: "))
-
-    # Esegue la funzione corrispondente alla scelta
-    if scelta == 1:
-        stampaNumeri()
-    elif scelta == 2:
-        sommaNumeri()
-    elif scelta == 3:
-        tabellina5()
-    elif scelta == 4:
-        quadrati()
 
 # stampa 10 numeri casuali
 def NumCasuale():
     for i in range(10):
         print(random.randint(1,100))  # randint(a,b) restituisce un numero casuale tra a e b
+
+
+# una funzione che stampa tutte le tabelline da 1 a 10
+def tabelline():
+    for i in range(1,11):
+        for j in range(1,11):
+            print(i*j, end = "\t")
+        print()
 
 
 ## Qui sotto ci sono le chiamate alle funzioni (se sono commentate non vengono eseguite)
@@ -138,5 +150,6 @@ def NumCasuale():
 #stampPrimiDieci()
 #bersaglio()
 #tavNum()
+#tabelline()
 
 
