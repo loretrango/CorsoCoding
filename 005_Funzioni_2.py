@@ -142,7 +142,37 @@ def tabelline():
         print()
 
 
+
+# superficie cilindro
+def cilindro():
+    h = 13.4
+    d = 5.4
+
+    # a) Area laterale
+    C = d*3.14
+    print("C", C)
+    Al = C*h
+    print("Al", Al)
+
+def cicloWhile():
+    n = 1
+    while n<=10:
+        print(n)
+        n = n + 1
+
+def SommaCasuali():
+    a = random.randint(1,10)
+    b = random.randint(1,10)
+    somma = a + b
+    
+    print("a", a)
+    print("b", b)
+    print(a,"+", b, "=", somma)
+
+SommaCasuali()
+
 ## Qui sotto ci sono le chiamate alle funzioni (se sono commentate non vengono eseguite)
+#cilindro()
 #PositivoNegativo()
 #saluta()
 #confronta()
