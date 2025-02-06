@@ -154,6 +154,17 @@ def cilindro():
     Al = C*h
     print("Al", Al)
 
+    # b) Area della base
+    r = d/2
+    Ab = 3.14*r**2
+    print("Ab", Ab)
+
+    # c) Area totale
+    At = 2*Ab + Al
+    print("At", At)
+
+# ciclo while (finchè): ripete un blocco di codice finchè una condizione è vera
+# es. stampa i numeri da 1 a 10
 def cicloWhile():
     n = 1
     while n<=10:
