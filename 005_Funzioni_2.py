@@ -180,9 +180,6 @@ def cilindroParametri(h,d):
     At = 2*Ab + Al
     print("At", At)
 
-    return At
-    return Al
-    return Ab
 
 
 # ciclo while (finchè): ripete un blocco di codice finchè una condizione è vera
