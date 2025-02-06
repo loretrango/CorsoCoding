@@ -169,9 +169,25 @@ def SommaCasuali():
     print("b", b)
     print(a,"+", b, "=", somma)
 
-SommaCasuali()
+# Quiz, somma numeri casuali e restituisci punteggio
+def GiocoSommaNumeri():
+    print("Gioco somma numeri")
+    punteggio = 0
+    for i in range(10):
+        a = random.randint(1,10)
+        b = random.randint(1,10)
+        somma = a + b
+        print(f"{a} + {b} =")
+        risposta = int(input())
+        if risposta == somma:
+            punteggio = punteggio + 1
+    print("Punteggio:", punteggio)
+
+GiocoSommaNumeri()
 
 ## Qui sotto ci sono le chiamate alle funzioni (se sono commentate non vengono eseguite)
+
+#SommaCasuali()
 #cilindro()
 #PositivoNegativo()
 #saluta()
