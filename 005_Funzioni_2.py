@@ -177,16 +177,17 @@ def GiocoSommaNumeri():
         a = random.randint(1,10)
         b = random.randint(1,10)
         somma = a + b
-        print(f"{a} + {b} =")
+        # f-string (formatted string) permette di inserire variabili in una stringa
+        # mettendo la variabile tra parentesi graffe
+        print(f"{a} + {b} =") 
         risposta = int(input())
         if risposta == somma:
             punteggio = punteggio + 1
     print("Punteggio:", punteggio)
 
-GiocoSommaNumeri()
 
 ## Qui sotto ci sono le chiamate alle funzioni (se sono commentate non vengono eseguite)
-
+GiocoSommaNumeri()
 #SommaCasuali()
 #cilindro()
 #PositivoNegativo()
