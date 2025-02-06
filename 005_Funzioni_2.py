@@ -143,7 +143,7 @@ def tabelline():
 
 
 
-# superficie cilindro
+# superficie cilindro: calcola l'area laterale, la base e totale di un cilindro
 def cilindro():
     h = 13.4
     d = 5.4
@@ -162,6 +162,28 @@ def cilindro():
     # c) Area totale
     At = 2*Ab + Al
     print("At", At)
+
+# stessa funzione cilindro() ma con parametri
+def cilindroParametri(h,d):
+    # a) Area laterale
+    C = d*3.14
+    print("C", C)
+    Al = C*h
+    print("Al", Al)
+
+    # b) Area della base
+    r = d/2
+    Ab = 3.14*r**2
+    print("Ab", Ab)
+
+    # c) Area totale
+    At = 2*Ab + Al
+    print("At", At)
+
+    return At
+    return Al
+    return Ab
+
 
 # ciclo while (finchè): ripete un blocco di codice finchè una condizione è vera
 # es. stampa i numeri da 1 a 10
@@ -198,7 +220,7 @@ def GiocoSommaNumeri():
 
 
 ## Qui sotto ci sono le chiamate alle funzioni (se sono commentate non vengono eseguite)
-GiocoSommaNumeri()
+#GiocoSommaNumeri()
 #SommaCasuali()
 #cilindro()
 #PositivoNegativo()
