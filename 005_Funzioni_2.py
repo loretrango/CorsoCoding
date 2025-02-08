@@ -181,7 +181,6 @@ def cilindroParametri(h,d):
     print("At", At)
 
 
-
 # ciclo while (finchè): ripete un blocco di codice finchè una condizione è vera
 # es. stampa i numeri da 1 a 10
 def cicloWhile():
@@ -216,7 +215,7 @@ def GiocoSommaNumeri():
     print("Punteggio:", punteggio)
 
 
-################################################
+##############################################
 ## CHIAMATE ALLE FUNZIONI
 ## Qui sotto ci sono le chiamate alle funzioni (se sono commentate non vengono eseguite)
 
@@ -232,4 +231,4 @@ def GiocoSommaNumeri():
 #tavNum()
 #tabelline()
 
-################################################
+##############################################
