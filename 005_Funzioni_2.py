@@ -216,7 +216,10 @@ def GiocoSommaNumeri():
     print("Punteggio:", punteggio)
 
 
+################################################
+## CHIAMATE ALLE FUNZIONI
 ## Qui sotto ci sono le chiamate alle funzioni (se sono commentate non vengono eseguite)
+
 #GiocoSommaNumeri()
 #SommaCasuali()
 #cilindro()
@@ -229,4 +232,4 @@ def GiocoSommaNumeri():
 #tavNum()
 #tabelline()
 
-
+################################################
