@@ -202,7 +202,8 @@ def SommaCasuali():
 def GiocoSommaNumeri():
     print("Gioco somma numeri")
     punteggio = 0
-    for i in range(10):
+    num_operazioni = int(input("Digita il numero di operazioni da fare: "))
+    for i in range(num_operazioni):
         a = random.randint(1,10)
         b = random.randint(1,10)
         somma = a + b
@@ -212,7 +213,7 @@ def GiocoSommaNumeri():
         risposta = int(input())
         if risposta == somma:
             punteggio = punteggio + 1
-    print("Punteggio:", punteggio)
+    print(f"Punteggio: {punteggio}/{num_operazioni}")
 
 
 ##############################################
