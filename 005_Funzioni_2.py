@@ -219,7 +219,7 @@ def GiocoSommaNumeri():
 ## CHIAMATE ALLE FUNZIONI
 ## Qui sotto ci sono le chiamate alle funzioni (se sono commentate non vengono eseguite)
 
-#GiocoSommaNumeri()
+GiocoSommaNumeri()
 #SommaCasuali()
 #cilindro()
 #PositivoNegativo()
