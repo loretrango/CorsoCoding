@@ -1,0 +1,32 @@
+PROGRAMMA LEGGE DI OHM
+Obiettivo
+Realizzare un programma in Python che aiuti a calcolare una delle tre grandezze della Legge di Ohm 
+I = V/R: 
+Intensità di corrente (I), 
+Differenza di potenziale (V) o 
+Resistenza (R), 
+dati gli altri due valori.
+
+Requisiti minimi
+    1. Il programma deve presentare un menu con tre opzioni:
+        ◦ Calcolare l'intensità di corrente (I)
+        ◦ Calcolare la differenza di potenziale (V)
+        ◦ Calcolare la resistenza (R)
+    2. Dopo aver scelto un'opzione, il programma deve chiedere all'utente di inserire i valori necessari e calcolare il risultato con la formula giusta.
+    3. Il risultato deve essere stampato a schermo in modo chiaro.
+
+Passaggi da seguire
+    1. Stampare il menu con le opzioni numerate (1, 2, 3).
+    2. Leggere la scelta dell'utente e convertirla in numero intero.
+    3. Chiedere i dati necessari in base alla scelta dell'utente.
+    4. Effettuare il calcolo corrispondente.
+    5. Mostrare il risultato con un messaggio chiaro.
+
+Suggerimenti per migliorare il programma (opzionale)
+    • Controllo degli errori: Verificare che l'utente inserisca numeri validi e che la resistenza non sia zero (evitare divisione per zero).
+    • Interfaccia più chiara: Aggiungere linee vuote o separatori per rendere il menu più leggibile.
+    • Riconoscere errori di input: Se l'utente inserisce una scelta non valida, chiedere di riprovare invece di far terminare il programma con un errore.
+    • Unità di misura: Mostrare i risultati con le unità di misura corrette (Ampere, Volt, Ohm).
+    • Loop per ripetere il calcolo: Chiedere all’utente se vuole fare un altro calcolo senza dover riavviare il programma.
+    • Possibilità di uscire: Aggiungere un'opzione per chiudere il programma.
+    • Aggiungere spiegazioni: Dare una breve spiegazione della Legge di Ohm prima di iniziare i calcoli.
