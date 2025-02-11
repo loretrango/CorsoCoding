@@ -1,4 +1,6 @@
 PROGRAMMA LEGGE DI OHM
+Specifiche programma
+
 Obiettivo
 Realizzare un programma in Python che aiuti a calcolare una delle tre grandezze della Legge di Ohm 
 I = V/R: 
