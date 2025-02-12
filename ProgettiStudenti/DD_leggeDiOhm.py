@@ -1,15 +1,15 @@
 ## Legge di Ohm: calcolatore di corrente, tensione e resistenza
 
 def intensita():
-   T = int(input("Scrivi qua la Tensione: "))
+   T = float(input("Scrivi qua la Tensione: "))
    if T == 0:
     print("Amico, questo numero non puoi scriverlo!!")
-    T = int(input("Scrivi qua la Tensione: "))
+    T = float(input("Scrivi qua la Tensione: "))
    print(" ")
-   R = int(input("Scrivi qua la Resistenza: "))
+   R = float(input("Scrivi qua la Resistenza: "))
    if R == 0:
     print("Amico, questo numero non puoi scriverlo!!")
-    R = int(input("Scrivi qua la Resistenza"))
+    R = float(input("Scrivi qua la Resistenza"))
    I = T / R
    print(" ")
    print("Ecco tutti i dati:")
@@ -24,15 +24,15 @@ def intensita():
    continuare()
 
 def tensione():
-   I = int(input("Scrivi qua l'Intensità: "))
+   I = float(input("Scrivi qua l'Intensità: "))
    if I == 0:
     print("Amico, questo numero non puoi scriverlo!!")
-    R = int(input("Scrivi qua l'Intensità: "))
+    R = float(input("Scrivi qua l'Intensità: "))
    print(" ")
-   R = int(input("Scrivi qua la Resistenza: "))
+   R = float(input("Scrivi qua la Resistenza: "))
    if R == 0:
     print("Amico, questo numero non puoi scriverlo!!")
-    R = int(input("Scrivi qua la Resistenza"))
+    R = float(input("Scrivi qua la Resistenza"))
    T = I / R
    print(" ")
    print("Ecco tutti i dati:")
@@ -47,15 +47,15 @@ def tensione():
    continuare()
 
 def resistenza():
-   T = int(input("Scrivi qua la Tensione: "))
+   T = float(input("Scrivi qua la Tensione: "))
    if T == 0:
     print("Amico, questo numero non puoi scriverlo!!")
-    I = int(input("Scrivi qua la Tensione: "))
+    I = float(input("Scrivi qua la Tensione: "))
    print(" ")
-   I = int(input("Scrivi qua l'Intensità: "))
+   I = float(input("Scrivi qua l'Intensità: "))
    if I == 0:
     print("Amico, questo numero non puoi scriverlo!!")
-    R = int(input("Scrivi qua l'Intensità"))
+    R = float(input("Scrivi qua l'Intensità"))
    R = T/I
    print(" ")
    print("Ecco tutti i dati:")
@@ -103,7 +103,7 @@ def Legge():
  print(" ")
  print("Infine, per calcolare la Resistenza, bisogna fare Tensione fratto Intensità [T/I]")
   
- scelta =int( input("Scrivi il numero!: "))
+ scelta =float( input("Scrivi il numero!: "))
  
  if scelta == 1:
    intensita()
@@ -120,14 +120,14 @@ def Legge():
     print("2.Calcolare la Tensione")
     print("3.Calcolare la Resistenza")
     print(" ")
-    scelta =int( input("Scrivi il numero!: "))
+    scelta =float( input("Scrivi il numero!: "))
 
 def continuare():
   
     print("Finito, vuoi continuare a farne altri?")
     print("1.Si")
     print("2.No")
-    H = int(input("Vuoi continuare?: "))
+    H = float(input("Vuoi continuare?: "))
 
     if H == 1:
         Legge()
@@ -138,7 +138,7 @@ def continuare():
 
     else:
         print("Amico, questa risposta non è valida!!")
-        H =int(input("Vuoi continuare a fare altri calcoli?: "))
+        H =float(input("Vuoi continuare a fare altri calcoli?: "))
     if H == 1:
       Legge()
 
