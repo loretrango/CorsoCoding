@@ -1,6 +1,6 @@
 # con import vengono importati moduli esterni (che rapresentano librerie di funzioni)
 import random
-###
+####
 
 # MENU: Esempio di come si può realizzare un menu, per scegliere cosa fare
 # tra varie funzioni
