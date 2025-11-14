@@ -9,3 +9,4 @@ print("Area del triangolo")
 print("Base:", b) 
 print("Altezza: ", h)
 print("Area:", A) #
+print("Area:", A)

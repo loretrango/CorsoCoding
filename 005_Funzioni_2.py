@@ -1,7 +1,6 @@
 # con import vengono importati moduli esterni (che rapresentano librerie di funzioni)
 import random
 ####___
-
 # MENU: Esempio di come si può realizzare un menu, per scegliere cosa fare
 # tra varie funzioni
 def menu():
@@ -215,6 +214,7 @@ def GiocoSommaNumeri():
             punteggio = punteggio + 1
     print(f"Punteggio: {punteggio}/{num_operazioni}")
 
+<<<<<<< HEAD
 ## funzione somma
 def somma(a,b):
     somma = a + b
@@ -235,12 +235,18 @@ somma = somma(a,b)
 #print("Somma = ", somma)
 print(f"Somma = {somma}")
 # CTRL + ALT + [
+=======
+>>>>>>> a01d5aab196e44fd2dc250caca169b659cda90a0
 
 ##############################################
 ## CHIAMATE ALLE FUNZIONI
 ## Qui sotto ci sono le chiamate alle funzioni (se sono commentate non vengono eseguite)
 
+<<<<<<< HEAD
 #GiocoSommaNumeri()
+=======
+GiocoSommaNumeri()
+>>>>>>> a01d5aab196e44fd2dc250caca169b659cda90a0
 #SommaCasuali()
 #cilindro()
 #PositivoNegativo()
