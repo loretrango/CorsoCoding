@@ -26,9 +26,3 @@ a = int(input("Inserisci un numero intero: "))
 b = int(input("Inserisci un altro numero intero: "))
 somma = a + b
 print("La somma di", a, "e", b, "è", somma) # la somma di X e Y è Z
-
-# se vuoi inserire un numero decimale, usa la funzione float()
-x = float(input("Inserisci un numero decimale: "))
-y = float(input("Inserisci un altro numero decimale: "))
-prodotto = x * y
-print("Il prodotto di", x, "e", y, "è", prodotto) # il prodotto di X e Y è Z
