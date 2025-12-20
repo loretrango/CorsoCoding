@@ -34,6 +34,11 @@ def altre_operazioni():
 
 # come si accetta un input dall'utente
 def accetta_input():
+    """
+    Prompts the user to enter their name and prints a greeting message.
+
+    This function asks the user for their name via standard input and then displays a greeting using the provided name.
+    """
     nome = input("Come ti chiami? ")
     print("Ciao", nome) 
 
