@@ -12,8 +12,7 @@ print("A1:", A1)
 print("A2:", A2)
 
 
-## Problema cilindro. Calcolare il volume e la superficie totale di un cilindro
-## dati raggio della base e altezza
+## Problema parallelepipedo, calcolare la superficie totale e il volume
 
 a = 5
 b = 3
