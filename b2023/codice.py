@@ -74,9 +74,9 @@ print("Costo totale vetro (euro):", costo_totale_vetro)
 # Calcoloare volume, area totale, area laterale, area base
 print("-----")
 print("Parallelepipedo")
-a = 18
-b = 32
-h = 33
+a = 18 # larhezza
+b = 32 # profondità
+h = 33 # altezza
 Ab = a*b
 P = 2*a + 2*b
 Al = P*h
@@ -91,3 +91,59 @@ print("Un litro equivale a 1dm3 ovvero 1000 cm3")
 V_litri = V / 1000  # convertire cm3 in litri
 print("Volume (litri):", V_litri)   
 # fine problema parallelepipedo
+
+######
+# pag.145 es.57-58
+print("-----")
+# Problema cilindro
+# d = 4.7 cm, h = 11.4 cm
+# Richieste: A) circonferenza di base B) altezza   
+# C) area laterale d) area totale e) volume
+print("Cilindro")
+# dati
+d = 4.7
+r = d / 2
+h = 11.4
+pi = 3.14
+print("Dati:")
+print("Diametro (cm):", d)
+print("Raggio (cm):", r)
+print("Altezza (cm):", h)
+# svolgimento
+print("Svolgimento:")
+C = 2 * pi * r
+print("A) Circonferenza di base (cm):", C)
+Al = C * h
+print("B) Area laterale (cm2):", Al)
+Ab = pi * r**2
+print("Area base (cm2):", Ab)
+At = 2 * Ab + Al
+print("D) Area totale (cm2):", At)
+V = Ab * h
+print("E) Volume (cm3):", V)
+
+#########
+print("-----")
+# es.58
+# a) r = 2.4 cm, h = 5 cm
+# b) d = 16 cm, h = 2.5 cm
+
+print("Calcola l'area della sup laterale" \
+"approssimandola al centimetro quadrato")
+# a)
+print("a)")
+r = 2.4
+h = 5
+C = 2 * pi * r
+Al = C * h
+print("Area laterale (cm2):", round(Al))
+# b)
+print("b)")
+d = 16
+r = d / 2
+h = 2.5
+C = 2 * pi * r
+print("Circonferenza di base (cm):", C)
+Al = C * h
+print("Area laterale (cm2):", round(Al))
+# fine problema cilindro
