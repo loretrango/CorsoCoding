@@ -69,3 +69,25 @@ costo_totale_vetro = At_m2 * costo_vetro_per_m2
 print("Costo totale vetro (euro):", costo_totale_vetro)
 # fine problema acquario
 
+########
+# Parallelepipedo a=18, b=32, h=33
+# Calcoloare volume, area totale, area laterale, area base
+print("-----")
+print("Parallelepipedo")
+a = 18
+b = 32
+h = 33
+Ab = a*b
+P = 2*a + 2*b
+Al = P*h
+At = 2*Ab + Al
+V = Ab*h
+print("Area base:", Ab, "cm2")
+print("Area laterale:", Al, "cm2")
+print("Area totale:", At, "cm2")
+print("Volume:", V)
+# volume in litri
+print("Un litro equivale a 1dm3 ovvero 1000 cm3")
+V_litri = V / 1000  # convertire cm3 in litri
+print("Volume (litri):", V_litri)   
+# fine problema parallelepipedo
