@@ -159,4 +159,4 @@ h=10
 a=(h**2+(l/2)**2)**(1/2)
 p=4*l
 Al=p*a/2
-print("area laterale",Al)
+print("area laterale",round(Al,2))
