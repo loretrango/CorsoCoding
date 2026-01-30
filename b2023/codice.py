@@ -147,3 +147,16 @@ print("Circonferenza di base (cm):", C)
 Al = C * h
 print("Area laterale (cm2):", round(Al))
 # fine problema cilindro
+#######
+
+#### Programma di Mario
+### problema piramide
+print()
+print("problema piramide mario")
+
+l=4
+h=10
+a=(h**2+(l/2)**2)**(1/2)
+p=4*l
+Al=p*a/2
+print("area laterale",Al)
