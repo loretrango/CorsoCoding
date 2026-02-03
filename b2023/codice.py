@@ -163,7 +163,7 @@ print("area laterale",round(Al,2))
 
 #####
 print("#############")
-print("prolema cono, volume,area larerale,area base")
+print("prolema cono, volume, area larerale, area base")
 pi = 3.14
 d = 10
 r = d/2
