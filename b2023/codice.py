@@ -162,13 +162,20 @@ Al=p*a/2
 print("area laterale",round(Al,2))
 
 #####
-print("prolema di volume,area larerale,area base")
-pi=3.14
-d=10
-r=d/2
-h=20
-a=(r**2+h**2)**(1/2)
-Ab=r**2*pi
-Al=a*r*pi
-V=r**2*pi*h*(1/3)
-print(Ab,Al,V)
+print("#############")
+print("prolema cono, volume,area larerale,area base")
+pi = 3.14
+d = 10
+r = d/2
+h = 20
+a = (r**2+h**2)**(1/2) ## oppure **0.5
+Ab = r**2*pi
+Al = a*r*pi
+V = r**2*pi*h*(1/3)
+At = Ab + Al
+print(Ab,Al,V,At)
+print("Ab:",round(Ab,2)) # la funzione round() arrotonda il numero
+print("Al:",round(Al,2))
+print("V:",round(V,2))
+print("At:",round(At))
+
