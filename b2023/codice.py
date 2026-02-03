@@ -160,3 +160,15 @@ a=(h**2+(l/2)**2)**(1/2)
 p=4*l
 Al=p*a/2
 print("area laterale",round(Al,2))
+
+#####
+print("prolema di volume,area larerale,area base")
+pi=3.14
+d=10
+r=d/2
+h=20
+a=(r**2+h**2)**(1/2)
+Ab=r**2*pi
+Al=a*r*pi
+V=r**2*pi*h*(1/3)
+print(Ab,Al,V)
