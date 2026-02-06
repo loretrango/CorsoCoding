@@ -179,3 +179,53 @@ print("Al:",round(Al,2))
 print("V:",round(V,2))
 print("At:",round(At))
 
+# fine programma cono
+
+## pag.122 es.5 Cassa da verniciare
+# Casa a base quadrata con tetto a forma di piramide
+# lato base = 11 m, altezza parteti = 3 m, 
+# superficie tetto totale finestre (non verniciare) = 12 m2
+
+# lato piramide = 11.6 m, apotema piramide = 6 m, spigolo faccia piramide = 8.3 m
+# costo vernice pareti = 6 euro/m2,  resa 12 m2/litro
+# costo vernice tetto = 8 euro/m2, resa 10 m2/l
+# a) calcola il costo della verince per le pareti
+# b) calcola il costo della vernice per il tetto
+
+print("-----")
+print("Cassa da verniciare")
+# dati
+l = 11
+h_pareti = 3
+superficie_finestre = 12
+l_piramide = 11.6
+a_piramide = 6
+spigolo_piramide = 8.3
+costo_vernice_pareti = 6
+resa_vernice_pareti = 12
+costo_vernice_tetto = 8
+resa_vernice_tetto = 10
+print("Dati:")
+print("Lato base (m):", l)
+print("Altezza pareti (m):", h_pareti)
+print("Superficie finestre (m2):", superficie_finestre)
+print("Lato piramide (m):", l_piramide)
+print("Apotema piramide (m):", a_piramide)
+print("Spigolo piramide (m):", spigolo_piramide)
+print("Costo vernice pareti (euro/m2):", costo_vernice_pareti)
+print("Resa vernice pareti (m2/litro):", resa_vernice_pareti)
+print("Costo vernice tetto (euro/m2):", costo_vernice_tetto)
+print("Resa vernice tetto (m2/litro):", resa_vernice_tetto)
+# svolgimento
+print("Svolgimento:")
+# a) costo vernice pareti
+Ab = l**2
+P = 4*l
+Al_pareti = P * h_pareti
+Al_pareti_verniciare = Al_pareti - superficie_finestre
+costo_totale_vernice_pareti = (Al_pareti_verniciare / resa_vernice_pareti) * costo_vernice_pareti
+print("a) Costo totale vernice pareti (euro):", round(costo_totale_vernice_pareti, 2))
+# b) costo vernice tetto                
+Al_tetto = (l_piramide * a_piramide) / 2 * 4  # area totale del tetto
+costo_totale_vernice_tetto = (Al_tetto / resa_vernice_tetto) * costo_vernice_tetto
+print("b) Costo totale vernice tetto (euro):", round(costo_totale_vernice_tetto, 2))
