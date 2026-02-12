@@ -229,3 +229,25 @@ print("a) Costo totale vernice pareti (euro):", round(costo_totale_vernice_paret
 Al_tetto = (l_piramide * a_piramide) / 2 * 4  # area totale del tetto
 costo_totale_vernice_tetto = (Al_tetto / resa_vernice_tetto) * costo_vernice_tetto
 print("b) Costo totale vernice tetto (euro):", round(costo_totale_vernice_tetto, 2))
+
+print("-----")
+## Trova il mcm delle coppie di numeri
+# 4 e 10, 6 e 9
+
+a = 1123
+b = 4
+
+if a==b:
+    mcm = a
+    print("mcm", mcm)
+elif a>b:
+    maggiore = a
+else:
+    maggiore = b
+    
+while True:
+    if maggiore % a == 0 and maggiore % b == 0:
+        mcm = maggiore
+        print("mcm", mcm)
+        break
+    maggiore += 1   
